@@ -19,9 +19,9 @@
             left: 0;
             width: 100%;
             height: 100%;
+            display: none;  /* Esto oculta el video */
         }
 
-        /* Adicionalmente, si quieres hacer un fondo de color o personalizar más, puedes añadir */
         body {
             background-color: #f4f4f4;
             text-align: center;
@@ -36,9 +36,9 @@
 <body>
     <h1>Escucha el stream de YouTube solo con audio</h1>
 
-    <!-- Reproductor de YouTube solo con audio -->
+    <!-- Reproductor de YouTube con solo audio -->
     <div class="youtube-iframe">
-        <iframe src="https://www.youtube.com/watch?v=si0ko-vsb0M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/si0ko-vsb0M?si=srjWwPFglIenFuGx&autoplay=1&controls=1&mute=0&modestbranding=1&showinfo=0&rel=0&fs=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
 </body>
