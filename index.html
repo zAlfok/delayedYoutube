@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stream de Audio de YouTube</title>
     <style>
-        /* Ocultamos el video */
         .youtube-iframe {
             width: 100%;
             height: 0;
@@ -19,7 +18,6 @@
             left: 0;
             width: 100%;
             height: 100%;
-            /*display: none;   Esto oculta el video */
         }
 
         body {
@@ -38,7 +36,11 @@
 
     <!-- Reproductor de YouTube con solo audio -->
     <div class="youtube-iframe">
-        <iframe src="https://www.youtube.com/embed/si0ko-vsb0M?si=srjWwPFglIenFuGx&autoplay=1&controls=1&mute=0&modestbranding=1&showinfo=0&rel=0&fs=0&iv_load_policy=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/si0ko-vsb0M?autoplay=1&mute=0&controls=1&modestbranding=1&showinfo=0&rel=0&fs=0&iv_load_policy=3" 
+            frameborder="0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+        </iframe>
     </div>
 
 </body>
